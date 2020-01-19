@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Home"
 title_separator          : "-"
 name                     : &name "Alexander Lemenze"
 description              : &description "personal description"
@@ -82,7 +82,7 @@ analytics:
 # Site Author
 author:
   name             : "Alexander Lemenze"
-  avatar           : "profile.png"
+  avatar           : "Headshot.jpg"
   bio              : "Genomics and microbiology backround- but love me some bioinformatics pipelines"
   location         : "New Jersey"
   employer         : "Rutgers NJMS"
