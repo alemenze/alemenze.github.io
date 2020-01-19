@@ -1,50 +1,42 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
-excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+Hello there! My name is Alex, and I am a scientist who likes to do a little bit of everything. This brought me to the world of genomics, and more specifically bioinformatics, to work with researchers on a variety of projects. My thesis work though was in biodefense and Rickettsiology, so I still get super excited chatting about those topics. But for now, here is a bit about my work, how I see particularly the field of bioinformatics, and a bit about me. 
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
-
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
-
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
-
-Site-wide configuration
+My work
 ------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+For those who are not familiar with the concept, core facilities are groups within a university (and sometimes industry) dedicated to sharing research and/or knowledge to the community. Some of the easiest to conceptualize are genomics core facilities. Most researchers dont know (or dont have the time to know) the intricacies of generating a sequencing library, havent operated a sequencer before, or the biggest one- cant afford a sequencer for just their lab. Having a core facility in place allows investigators to have an invaluable resource for information and access to shared facilities. 
 
-Create content & metadata
+With my love for variety and past work in a genomics core facility, my focus isn't a singular research topic, but instead to building a bioinformatics core facility. Currently called the [Molecular and Genomics Informatics Core (MaGIC)](https://github.com/RU-MaGIC), we are looking to help serve both our internal Rutgers NJMS community as well as anybody looking to collaborate. We are called MaGIC because its a snazzy acronym, but also because a frequent request from investigators tends to be to perform magic on their data, and give them the final biological distillation near instantaneously. 
+
+How I see bioinformatics
 ------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+To me, I see three major aspects of bioinformatics. Most people will specialize one way or another, but as always there is overlap. 
+* Algorithm designers
+  * These folks love the maths, and this is where the base for everything else comes from. Without the algorithms to handle these massive data sets, for example mapping your millions of reads to a reference genome using BWA or STAR, everything downstream would be moot. 
+* Statisticians
+  * The next layer to making your output and another maths heavy one. Once an algorithm is designed, one of the first questions you will get from a scientist is "Ok so it works, but is it significant?". These are the folks that give us the magic to say yes or no. 
+* Pipeliners
+  * A fair number of classically trained bioinformaticians may never need pipelining. They design everything from scratch and go from there. But some either like to build their algorithms/stats into a viable application, and then take it even further and start putting it together with other applications. This usually is more CS heavy than maths, but helps bring bioinformatics to non-bioinformaticians.
 
-**Markdown generator**
+On top of that, there is also the layer that is for all aspects- Documentation. This helps bring rigor and reproducibility to the informatics, and can be used to assist in teaching new scientists. With all of this, open sharing is a huge aspect of science in my opinion. If ever anyone sees something I have worked on (paper, code snippet, whatever) that they could use, I would be happy to offer it. 
 
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the academicpages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
-
-How to edit your site's GitHub repository
+Outside of the laboratory
 ------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+Personally, I am a huge believer that everyone needs a life outside of the lab. Its a way to help you recharge and sometimes even bring some new twists to your train of thought. And as everyone has experienced, science barely works the way its supposed to. After a long week of incubator contaminations, funky data derailing your entire hypothesis, or that primer that just wont bind the way it should, a life outside the lab helps to wash away all that. 
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+After sitting behind a computer all day working, I have a few outlets:
+* Structural and wildland firefighting
+* Beach bumming (and hilariously failing to surf)
+* Intense games- some favs
+  * Star Wars Armada
+  * Marvel Legendary
+  * Cosmic Encounters
+  * D&D 
 
-For more info
-------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+ 
