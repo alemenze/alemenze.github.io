@@ -11,30 +11,34 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Molecular Sciences and Biotechnology & Biomedical Sciences, Rochester Institute of Technology, 2013
+* Ph.D in Biomedical Sciences: Infection, Inflammation and Immunity, Rutgers NJMS, 2018
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* April 2018- August 2019: Technical Application Scientist
+  * GENEWIZ
+  * Duties included: 
+    * Technical consultations via site visits or teleconferences
+    * Project design assistance
+    * Post-delivery support
+    * Project management
+    * Market research and trend identification
+    * Generate marketing material and provide presentations
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Next Generation Sequencing (NGS)
+  * Illumina and Oxford Nanopore library preparations
+  * Illumina and Oxford Nanopore machine operations. 
+* NGS Bioinformatics
+  * R, bash, python
+  * RNA-seq, scRNA-seq, multi-modal single cell, WGS, Amplicon, ATAC-seq
+  * Nextflow, Docker
+* Tissue and bacterial cell culture
+  * DNA/RNA isolation and purification
+  * Basic molecular techniques
+
 
 Publications
 ======
@@ -56,4 +60,15 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Structural Firefighter
+  * Certifications: FF1, Swiftwater Ops, Ice Water Ops, Vehicle Extrication Ops, Rope Rescue Awareness, CEVO, Pump Ops, HazMat Ops, IML-3
+  * Stations:
+    * Chili, NY 2012-2013
+    * Lebanon Township, NJ 2013-2018
+      * Lieutenant 2016-2018
+      * Captain 2018
+    * Clinton, NJ 2019-
+* Wildland Firefighter
+  * Certifications: S-130/190
+  * Stations:
+    * NJ Div A, Section 6, Hell Valley Fire Crew 2018-
