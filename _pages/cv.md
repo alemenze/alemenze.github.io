@@ -16,6 +16,16 @@ Education
 
 Work experience
 ======
+* September 2019- Present: Assistant Professor and Core Director
+  * Rutgers NJMS
+  * Duties included:
+    * Performing day-to-day bioinformatics analysis
+    * Initiating bioinformatics core facility
+      * Molecular and Genomics Informatics Core
+    * Identify sources of funding and develop grants
+    * Develop training and educational materials
+    * Train and mentor students
+    * Pipeline development
 * April 2018- August 2019: Technical Application Scientist
   * GENEWIZ
   * Duties included: 
