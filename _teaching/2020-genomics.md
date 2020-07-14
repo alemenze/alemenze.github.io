@@ -4,7 +4,7 @@ collection: teaching
 type: "Full course"
 permalink: /teaching/2020-genomics
 venue: "Online hosting"
-date: TBD
+date: 2020-12-31
 location: "Newark, NJ, USA"
 ---
 
