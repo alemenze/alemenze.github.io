@@ -81,4 +81,4 @@ Service and leadership
 * Wildland Firefighter
   * Certifications: S-130/190
   * Stations:
-    * NJ Div A, Section 6, Hell Valley Fire Crew 2018-
+    * NJ Div A, Section 6 2018-
